@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/message_adapter_row_item_height">
+
+    <TextView
+        android:layout_width="@dimen/id_column_width"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/padding_left"
+        android:id="@+id/message_id_text_view"
+        android:gravity="center_vertical" />
+
+    <TextView
+        android:layout_width="@dimen/type_column_width"
+        android:layout_marginLeft="@dimen/padding_left"
+        android:layout_height="match_parent"
+        android:id="@+id/message_type_text_view"
+        android:gravity="center_vertical" />
+
+    <TextView
+        android:layout_width="@dimen/body_column_width"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/padding_left"
+        android:id="@+id/message_body_text_view"
+        android:gravity="center_vertical" />
+
+    <com.android.volley.toolbox.NetworkImageView
+        android:layout_width="@dimen/body_column_width"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/padding_left"
+        android:id="@+id/message_image_view"
+        android:gravity="center_vertical"
+        android:visibility="gone"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/message_timestamp_text_view"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="@dimen/padding_left"  />
+
+</LinearLayout>
