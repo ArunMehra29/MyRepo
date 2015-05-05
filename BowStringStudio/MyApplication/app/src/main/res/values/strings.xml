@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">BowStringStudio</string>
+
+    <string name="title_section1">Toys</string>
+    <string name="title_section2">Clothes</string>
+    <string name="title_section3">Sports</string>
+    <string name="title_section4">Hardware</string>
+    <string name="title_section5">Groceries</string>
+
+    <string name="hello_world">Hello world!</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_store_detail">Store Details</string>
+</resources>
